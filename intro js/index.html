@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/index.js" defer></script>
+    <style>
+        figure{
+            position: relative;
+            cursor: pointer;
+        }
+        figcaption{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="counter" class="text-primary display-1">0</h1>
+        <button class="btn btn-primary" id="btnIncrement"> Incrementar</button>
+        <button class="btn btn-secondary" id="bntDecrement">Decrementar</button>
+        <hr>
+        <figure>
+        <img src="img/fullmetal_alchemist_brotherhood_wallpaper_by_xylatakura07-d6yn4vu-1124x509.webp"
+         alt="fullmetal_alchemist_brotherhood_wallpaper_by_xylatakura07-d6yn4vu-1124x509"
+         id="character" width="600px">
+        <figcaption class="bg-info p-4 d-none" id="caption">
+            Edward e Apholse
+        </figcaption>
+        </figure>
+
+        <button class="btn btn-primary" id="blurIncrement">Aumentar contraste</button>
+        <button class="btn btn-primary" id="blurDecrement"> Diminuir contraste</button>
+
+    </main>
+</body>
+</html>
